@@ -1,3 +1,4 @@
+publish_to: none #追記
 name: calendar_widget
 description: A new Flutter package project.
 version: 0.0.1
@@ -10,6 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  calendar_logic:
+    path: ../calendar_logic
 
 dev_dependencies:
   flutter_test:
